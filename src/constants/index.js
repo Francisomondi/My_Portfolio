@@ -70,7 +70,7 @@ export const PROJECTS = [
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["React", "Cloudinary", "Tailwind CSS", "Node.js", "MongoDB"],
     liveLink: "https://leemart-complete-4z1h.vercel.app/",  // Replace with actual URL
-    githubLink: "https://github.com/Francisomondi/leemartComplete",
+    githubLink: "https://github.com/Francisomondi/My_Portfolio",
   },
   {
     title: "Task Management App",
