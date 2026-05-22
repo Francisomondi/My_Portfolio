@@ -20,7 +20,7 @@ const Navbar = () => {
           variants={Container(0)}
           initial = 'hidden'
           animate= 'visible'
-          className='text-white'>Francis Omondi</motion.p>
+          className='text-white'>Francis Odero Omondi</motion.p>
       </div>
 
       <motion.div 

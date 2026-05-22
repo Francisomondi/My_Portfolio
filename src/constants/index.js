@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project10 from "../assets/projects/project10.jfif";
 
 export const HERO_CONTENT = `
 Full-stack software developer with strong experience building scalable, production-ready web applications.
@@ -28,13 +29,25 @@ learning new technologies, and building systems that scale with user demand.
 `;
 
 export const EXPERIENCES = [
+
+    {
+    year: "2025 - Present",
+    role: "Software Developer",
+    company: "BuildLink Kenya",
+    description: `
+      Develop and maintain scalable React and supabase applications, covering system design, 
+      development, deployment, and maintenance.
+      Build RESTful APIs, integrate payment systems, and deliver scalable web solutions 
+    `,
+    technologies: ["Node.js", "React", "supabase", "PostgreSQL"],
+  },
   {
-    year: "2023 - Present",
+    year: "2023 - 2025",
     role: "Freelance Software Developer",
     company: "Independent",
     description: `
-Deliver full-stack web applications for clients, covering system design, development, deployment, and maintenance.
-Build RESTful APIs, integrate payment systems, and deliver scalable solutions used in real-world production environments.
+      Deliver full-stack web applications for clients, covering system design, development, deployment, and maintenance.
+      Build RESTful APIs, integrate payment systems, and deliver scalable solutions used in real-world production environments.
     `,
     technologies: ["Node.js", "React", "MongoDB", "PostgreSQL", "Docker"],
   },
@@ -43,9 +56,9 @@ Build RESTful APIs, integrate payment systems, and deliver scalable solutions us
     role: "Frontend Developer",
     company: "ULA Africa",
     description: `
-Developed responsive and accessible user interfaces using React and Next.js.
-Collaborated closely with backend engineers to integrate APIs, improve performance,
-and deliver consistent user experiences across devices.
+      Developed responsive and accessible user interfaces using React and Next.js.
+      Collaborated closely with backend engineers to integrate APIs, improve performance,
+      and deliver consistent user experiences across devices.
     `,
     technologies: ["React", "Next.js", "Tailwind CSS", "MySQL", "MongoDB"],
   },
@@ -54,8 +67,8 @@ and deliver consistent user experiences across devices.
     role: "Web Developer",
     company: "Mawimbi Seafood Restaurant",
     description: `
-Built and maintained a production web application supporting online orders and reservations.
-Designed backend APIs, managed data storage, and worked closely with stakeholders to align technical solutions with business needs.
+      Built and maintained a production web application supporting online orders and reservations.
+      Designed backend APIs, managed data storage, and worked closely with stakeholders to align technical solutions with business needs.
     `,
     technologies: ["React", "Node.js", "MongoDB", "PostgreSQL"],
   },
@@ -64,14 +77,23 @@ Designed backend APIs, managed data storage, and worked closely with stakeholder
     role: "Software Engineer",
     company: "Shantec Systems",
     description: `
-Contributed to enterprise-level web applications, focusing on feature development, database design,
-and improving system reliability in collaboration with engineering and product teams.
+      Contributed to enterprise-level web applications, focusing on feature development, database design,
+      and improving system reliability in collaboration with engineering and product teams.
     `,
-    technologies: ["JavaScript", "React", "Node.js", "MongoDB", "Git"],
+      technologies: ["JavaScript", "React", "Node.js", "MongoDB", "Git"],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "BuildLink Kenya",
+    image: project10,
+    description:
+      "Social network for Kenya's built environment industry, connecting professionals, sharing projects, and fostering collaboration.",
+    technologies: ["React", "PostgreSQL", "Tailwind CSS", "supabase"],
+    liveLink: "https://buildlink.co.ke",
+    githubLink: "https://github.com/buildlink-org",
+  },
   {
     title: "Leemart Enterprises",
     image: project1,
