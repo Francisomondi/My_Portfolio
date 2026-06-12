@@ -126,7 +126,7 @@ export const PROJECTS = [
     description:
       "WeTalk is a modern real-time chat application built with the MERN stack, Socket.IO, Zustand, DaisyUI, and Cloudinary. It features secure JWT authentication, real-time messaging, profile management, online user presence, image sharing, and customizable themes for a seamless communication experience.",
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS","DaisyUI", "Socket.IO", "Zustand", "Cloudinary"],
-    liveLink: "wetalkke.onrender.com/",
+    liveLink: "https://wetalkke.onrender.com/",
     githubLink: "https://github.com/Francisomondi/WeTalkKe",
   },
 ];
