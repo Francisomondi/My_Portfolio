@@ -101,7 +101,7 @@ export const PROJECTS = [
       "Production e-commerce platform with secure authentication, inventory management, and mobile money payment integration.",
     technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS", "M-Pesa API"],
     liveLink: "https://leemart.co.ke",
-    githubLink: "https://github.com/Francisomondi/My_Portfolio",
+    githubLink: "https://github.com/Francisomondi/leemartEnterrprises",
   },
   {
     title: "Church Donation Platform",
@@ -121,13 +121,13 @@ export const PROJECTS = [
     githubLink: "https://github.com/Francisomondi/Airtime-Ussd-Daraja",
   },
   {
-    title: "Restaurant Ordering & Reservation System",
+    title: "Realtime Chat Application - Wetalk",
     image: project4,
     description:
-      "Full-stack web application for managing online food orders and reservations with a focus on usability and performance.",
-    technologies: ["React", "Node.js", "Express", "MySQL", "Tailwind CSS"],
-    liveLink: "https://mawimbiseafood.com",
-    githubLink: "https://github.com/Francisomondi/mawimbi",
+      "WeTalk is a modern real-time chat application built with the MERN stack, Socket.IO, Zustand, DaisyUI, and Cloudinary. It features secure JWT authentication, real-time messaging, profile management, online user presence, image sharing, and customizable themes for a seamless communication experience.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS","DaisyUI", "Socket.IO", "Zustand", "Cloudinary"],
+    liveLink: "wetalkke.onrender.com/",
+    githubLink: "https://github.com/Francisomondi/WeTalkKe",
   },
 ];
 
